@@ -1,0 +1,23 @@
+.nav-container {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.icon {
+    height: 75px;
+}
+
+.hello {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    vertical-align: text-bottom;
+}
+
+.form-container {
+    padding: 10px;
+}
+
+.form-field {
+    margin-top: 10px;
+}

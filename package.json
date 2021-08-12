@@ -1,0 +1,38 @@
+{
+  "name": "website-report",
+  "version": "1.0.0",
+  "description": "A tool to perform website analysis and gives a report",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --inspect ./dist/server/bundle.js",
+    "build": "webpack --config webpack.prod.js && webpack --config webpack.server.js --mode development"
+  },
+  "author": "vinotb (Vinoth Balaji Kannan)",
+  "license": "ISC",
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.2.0",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.4",
+    "typescript": "^4.3.5",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.19.1",
+    "@types/express": "^4.17.13",
+    "@types/puppeteer": "^5.4.4",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "puppeteer": "^10.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
